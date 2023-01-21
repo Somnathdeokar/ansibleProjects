@@ -1,3 +1,3 @@
 ---
 - name: Install httpd Package
-  apt: name=httpd state=latest
+  yum: name=httpd state=latest
